@@ -12,6 +12,7 @@ body {
 
 .masthead {
   background-image: url("../images/beetle-graphic.svg"), url("../images/beetle-graphic.svg"), url(../images/waves.png);
+  background-image width: 25px;
   background-size: 75px auto, 75px auto, 200px auto;
   padding: 0em;
   background-repeat: no-repeat, no-repeat, repeat;
@@ -78,7 +79,7 @@ nav ol{
 .banner img{
   width: 100%;
   margin: 0em;
-  image: linear-gradient(to bottom, black, transparent);
+  background-image: linear-gradient(to bottom, black, transparent);
 }
 
 h2{
@@ -126,7 +127,7 @@ div img {
   position: relative;
 }
 
-.btn-ant{
+.btn-ant {
   border-radius: 10px;
   color: white;
   text-decoration: none;
@@ -137,11 +138,16 @@ div img {
   text-align: center;
   position: absolute;
   width: 50%;
-  bottom: 2em;
+  bottom: 1em;
   font-size: 1.5rem;
 }
 
-.btn-stag{
+.btn-ant:hover {
+  background-image: linear-gradient(to bottom, #214D00, #388200);
+  opacity: 1;
+}
+
+.btn-stag {
   border-radius: 10px;
   color: white;
   text-decoration: none;
@@ -152,8 +158,13 @@ div img {
   text-align: center;
   position: absolute;
   width: 50%;
-  bottom: 3em;
+  bottom: 1em;
   font-size: 1.5rem;
+}
+
+.btn-stag:hover {
+  background-image: linear-gradient(to bottom, #214D00, #388200);
+  opacity: 1;
 }
 
 .btn-dung{
@@ -167,11 +178,16 @@ div img {
   text-align: center;
   position: absolute;
   width: 50%;
-  bottom: 3em;
+  bottom: 1em;
   font-size: 1.5rem;
 }
 
-.btn-tort{
+.btn-dung:hover {
+  background-image: linear-gradient(to bottom, #214D00, #388200);
+  opacity: 1;
+}
+
+.btn-tort {
   border-radius: 10px;
   color: white;
   text-decoration: none;
@@ -182,8 +198,14 @@ div img {
   text-align: center;
   position: absolute;
   width: 50%;
-  bottom: 3em;
+  bottom: 1em;
   font-size: 1.5rem;
+  left: 1.5em;
+}
+
+.btn-tort {
+  background-image: linear-gradient(to bottom, #214D00, #388200);
+  opacity: 1;
 }
 
 footer{
