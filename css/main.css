@@ -8,11 +8,12 @@ html{
 
 body {
   margin: 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 .masthead {
   background-image: url("../images/beetle-graphic.svg"), url("../images/beetle-graphic.svg"), url(../images/waves.png);
-  background-size: 75px auto, 75px auto, 200px auto;
+  background-size: 60px auto, 60px auto, 200px auto;
   padding: 0em;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left top, right top, left top;
@@ -88,7 +89,9 @@ h2{
   width: 100%;
   bottom: 0%;
   font-size: 1.75em;
-  background-image: linear-gradient(to bottom, transparent, black);
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
+  bottom: -6%;
+  padding: 1em;
 }
 
 .ant-nest {
@@ -198,6 +201,7 @@ div img {
   bottom: 1em;
   font-size: 1.5rem;
   left: 1.5em;
+  margin: 0 auto;
 }
 
 .btn-tort:hover {
@@ -206,21 +210,18 @@ div img {
 }
 
 .foot {
-  width: 125px;
+  width: 15%;
+  display: block;
   opacity: 1;
 }
 
 footer{
-  background-image: url("../images/beetle-graphic.svg");
-  background-color: #4E250E;
-  opacity: 0.5;
+  background-color: rgba(81, 34, 0, 0.5);
   height: 2em;
-  position: absolute;
-  bottom: 0em;
+  position: relative;
+  bottom: 0%;
   margin: 0;
   width: 100%;
   overflow: hidden;
+  display: block;
 }
-
-
-display block on images
