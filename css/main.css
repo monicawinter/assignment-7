@@ -164,7 +164,7 @@ div img {
   font-size: 1rem;
   margin: 0 auto;
   float: right;
-  right: 25%;
+  right: 20%;
 }
 
 .btn-stag:hover {
@@ -187,7 +187,7 @@ div img {
   font-size: 1rem;
   margin: 0 auto;
   float: left;
-  left: 25%;
+  left: 22%;
 }
 
 .btn-dung:hover {
@@ -211,7 +211,7 @@ div img {
   left: 1.5em;
   margin: 0 auto;
   float: right;
-  right: 25%
+  right: 5%
 }
 
 .btn-tort:hover {
@@ -230,7 +230,7 @@ div img {
 
 footer{
   background-color: rgba(81, 34, 0, 0.5);
-  height: 2em;
+  height: 1em;
   position: relative;
   bottom: 0%;
   margin: 0;
