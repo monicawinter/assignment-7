@@ -43,6 +43,7 @@ nav li{
   float: left;
   width: 25%;
   display: block;
+  color: #fff;
 }
 
 nav a{
@@ -52,14 +53,12 @@ nav a{
   color: #fff;
   padding: 1em;
   background-color: #4E250E;
-  opacity: 0.5;
   text-align: center;
 }
 
-a:hover {
+nav a:hover {
   background-color: #4E250E;
-  opacity: 0.75;
-  color: #fff;
+  opacity: 1;
 }
 
 nav ol{
@@ -67,6 +66,7 @@ nav ol{
   padding: 0em;
   width: 100%;
   margin: 0;
+  color: #fff;
 }
 
 .banner{
